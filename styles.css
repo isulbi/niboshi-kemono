@@ -59,10 +59,10 @@ body {
     background-clip: text;
 }
 
-.nav-brand .logo {
-    width: 40px;
-    height: 40px;
-    object-fit: contain;
+.nav-brand img {
+    width: 40px !important;
+    height: 40px !important;
+    object-fit: contain !important;
 }
 
 .nav-menu {
@@ -113,10 +113,10 @@ body {
     z-index: 1;
 }
 
-.hero-logo {
-    width: 200px;
-    height: 200px;
-    object-fit: contain;
+.hero-content img {
+    width: 200px !important;
+    height: 200px !important;
+    object-fit: contain !important;
     margin-bottom: 2rem;
     animation: fadeInDown 1s ease-out;
 }
@@ -394,14 +394,14 @@ section h2 {
         font-size: 0.85rem;
     }
 
-    .nav-brand .logo {
-        width: 32px;
-        height: 32px;
+    .nav-brand img {
+        width: 32px !important;
+        height: 32px !important;
     }
 
-    .hero-logo {
-        width: 150px;
-        height: 150px;
+    .hero-content img {
+        width: 150px !important;
+        height: 150px !important;
         margin-bottom: 1.5rem;
     }
 
@@ -432,14 +432,14 @@ section h2 {
 }
 
 @media (max-width: 480px) {
-    .nav-brand .logo {
-        width: 28px;
-        height: 28px;
+    .nav-brand img {
+        width: 28px !important;
+        height: 28px !important;
     }
 
-    .hero-logo {
-        width: 120px;
-        height: 120px;
+    .hero-content img {
+        width: 120px !important;
+        height: 120px !important;
         margin-bottom: 1rem;
     }
 
